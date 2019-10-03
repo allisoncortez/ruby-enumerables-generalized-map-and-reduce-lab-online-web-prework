@@ -8,5 +8,7 @@ def map(source_array)
   new_array
 end
 
+
 def reduce(array, starting value = nil)
+  
 end
