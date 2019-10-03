@@ -9,15 +9,14 @@ def map(source_array)
 end
 
 
-def reduce(array, starting value = nil)
+def reduce(array, starting value=nil)
   if starting_value
-    sum = starting_value
+    sum = starting value
     i = 0
   else
     sum = array[0]
     i = 1
   end
-  
   while i < array.length
     sum = yield(sum,array[i])
     i += 1
