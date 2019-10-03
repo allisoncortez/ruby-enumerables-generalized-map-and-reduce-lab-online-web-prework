@@ -7,3 +7,6 @@ def map(source_array)
   end
   new_array
 end
+
+def reduce
+end
