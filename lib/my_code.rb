@@ -1,9 +1,4 @@
-# def map(source_array)
-#   counter = 0
-#   while counter < source_array.length do
-#   yield(source_array[i]{|i|) counter * -1}
-#   end
-# end
+
 
 def map(source_array)
   new_array = []
